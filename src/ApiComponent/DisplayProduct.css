@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: auto;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.containerdisplay{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+   margin: 20px;
+    padding: 20px;
+   
+    overflow: hidden;
+}
+.image-card-topdisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    padding: 20px;
+    height: 500px;
+}
+.cardbodydisplay{
+  padding: 50px;
+}
+.card-titledisplay {
+    font-size: 1.55rem; 
+    font-weight: bold; 
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  
+  .pricedisplay {
+    font-size: 1.3rem; 
+    font-weight: bold; 
+    margin-bottom: 8px;
+    color: black; 
+  }
+  
+  .descriptiondisplay {
+    font-size: 0.950rem; 
+    color: #555; 
+    margin-bottom: 12px; 
+  }
+  
+  
+  .categorydisplay {
+    font-size: 1rem; 
+    color: #777; 
+  }
+  
